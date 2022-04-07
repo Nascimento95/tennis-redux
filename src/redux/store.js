@@ -9,7 +9,7 @@ const initialState = {
     advantage: null,
     winner: null,
     playing: true,
-    saveScoreGame: null,
+    history: [],
 };
 
 

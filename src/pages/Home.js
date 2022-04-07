@@ -3,10 +3,14 @@ import { PlayPauseButton } from "../components/PlayPauseButton";
 import { ResetGameButton } from "../components/ResetGameButton";
 import { PlayScoredButton } from "../components/PlayScoredButton";
 import { PlayerScore } from "../components/PlayerScore";
+import PlayerPoint from '../components/PlayerPoint';
+
 const Home = () => {
   return (
     <div>
       <h1>ma home</h1>
+      <PlayerPoint  playerId= "player1"/>
+      <PlayerPoint  playerId= "player2"/>
       <Display />
       <PlayerScore playerId='player1' />
       <PlayerScore playerId='player2'/>
